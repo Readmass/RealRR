@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iyunga Secondary School - Quality education for a better future.">
+    <title>Iyunga Secondary School | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div>
+            <img src="image/logo.jpg" alt="logo">
+            <h1>Iyunga Technical School</h1>
+            <p>Quality Education Science &amp; Technology</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <button class="menu-toggle" type="button">☰</button>
+
+        <div class="book">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Academics">Academics</a></li>
+                <li><a href="#Admition">Admition</a></li>
+                <li><a href="login.html">Admission Records</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="Home" class="hero">
+            <div class="container2">
+                <h1>Home</h1>
+
+                <div class="ret">
+                    <h2>Welcome to Iyunga Secondary School</h2>
+                    <p>We prepare students for academic excellence, leadership, and responsible citizenship.</p>
+                    <a href="#About" class="btn">Learn More</a>
+                </div>
+
+                <div class="image">
+                    <img src="image/home.png" alt="Iyunga we trust">
+                </div>
+            </div>
+        </section>
+
+        <section id="About" class="hero">
+            <div class="container2">
+                <h1>About Us</h1>
+
+                <div class="ret">
+                    <p>Iyunga Secondary School is committed to providing quality education in a supportive learning environment. Our dedicated teachers and modern facilities help students achieve their full potential.</p>
+                    <p>We focus on academic excellence, discipline, and holistic development.</p>
+                </div>
+
+                <div class="image">
+                    <img src="image/about.png" alt="Iyunga Secondary School buildings">
+                </div>
+            </div>
+        </section>
+
+        <section id="Academics" class="NM">
+            <div class="container1">
+                <h1>Academic Programmes</h1>
+
+                <div class="Olevel">
+                    <h2>Olevel (Form I to Form IV)</h2>
+                    <h4>We provide the following studies</h4>
+
+                    <ol>
+                        <li><strong>Mathematics</strong></li>
+                        <li><strong>Physics</strong></li>
+                        <li><strong>Chemistry</strong></li>
+                        <li><strong>Geography</strong></li>
+                        <li><strong>Biology</strong></li>
+                        <li><strong>Kiswahili</strong></li>
+                        <li><strong>History</strong></li>
+                        <li><strong>Civics</strong></li>
+                        <li><strong>English Language</strong></li>
+                        <li><strong>Bible Knowledge</strong></li>
+                        <li><strong>Computer</strong></li>
+                    </ol>
+
+                    <p>Our students are learning in a more practical way.</p>
+                </div>
+
+                <div class="Advance">
+                    <h2>High Level (Form V to Form VI)</h2>
+                    <p>Concerning the following combinations:</p>
+
+                    <ol>
+                        <li><strong>PCM</strong></li>
+                        <li><strong>PcoM</strong></li>
+                        <li><strong>PCB</strong></li>
+                    </ol>
+
+                    <p>Also students should learn General Studies and Communication Studies.</p>
+                </div>
+
+                <div class="Technical-studies">
+                    <h2>Olevel - Technical Studies</h2>
+                    <p>These concern the following:</p>
+
+                    <ol>
+                        <li><strong>Engineering Science</strong></li>
+                        <li><strong>Building Construction</strong></li>
+                        <li><strong>Architectural Drawing</strong></li>
+                        <li><strong>Mechanical Engineering</strong></li>
+                        <li><strong>Electrical Engineering</strong></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="Admition" class="hero">
+            <div class="container2">
+
+                <h1>Admission Form</h1>
+
+                <form class="AT" method="post">
+
+                    <div class="admission-cards">
+
+                        <div class="card">
+                            <h2>Student Information</h2>
+
+                            <div class="student">
+
+                                <div class="form-group">
+                                    <label for="Fullname">Student Full Name</label>
+                                    <input
+                                        type="text"
+                                        id="Fullname"
+                                        name="FullName"
+                                        placeholder="Enter student full name"
+                                        required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="date">Date of Birth</label>
+                                    <input
+                                        type="date"
+                                        id="date"
+                                        name="date"
+                                        required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="gender">Select Gender</label>
+                                    <select id="gender" name="gender" required>
+                                        <option value="">Select gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="level">Select Level</label>
+                                    <select id="level" name="level" required>
+                                        <option value="">Select level</option>
+                                        <option value="O-Level">O-Level</option>
+                                        <option value="High-level">High-level</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="class">Apply For</label>
+                                    <select id="class" name="class" required>
+                                        <option value="">Select class</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="combination">Select Combination for Advance</label>
+                                    <select id="combination" name="combination" disabled>
+                                        <option value="none">Select combination</option>
+                                        <option value="PCM">PCM</option>
+                                        <option value="PcoM">PcoM</option>
+                                        <option value="PCB">PCB</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group full">
+                                    <label for="previous">Previous School Name</label>
+                                    <input
+                                        type="text"
+                                        id="previous"
+                                        name="previous"
+                                        placeholder="Previous school"
+                                        required>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h2>Parent / Guardian Information</h2>
+
+                            <div class="parent">
+
+                                <div class="form-group">
+                                    <label for="parentname">Parent or Guardian Name</label>
+                                    <input
+                                        type="text"
+                                        id="parentname"
+                                        name="parentname"
+                                        placeholder="Parent name"
+                                        required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Phone">Enter Phone Number</label>
+                                    <input
+                                        type="tel"
+                                        id="Phone"
+                                        name="Phone"
+                                        placeholder="Phone No"
+                                        required>
+                                </div>
+
+                                <div class="form-group full">
+                                    <label for="Address">Student Home Address</label>
+                                    <input
+                                        type="text"
+                                        id="Address"
+                                        name="Address"
+                                        placeholder="Home Address"
+                                        required>
+                                </div>
+
+                                <div class="form-group full">
+                                    <label for="document">Upload Supporting Document</label>
+                                    <input
+                                        type="file"
+                                        id="document"
+                                        name="document"
+                                        accept=".pdf,.jpg,.jpeg,.png">
+                                </div>
+
+                                <button type="submit">
+                                    Submit Application
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+        <section id="Contact" class="hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+
+                <p><strong>Address:</strong> Iyunga, Mbeya, Tanzania</p>
+                <p><strong>Phone:</strong> +255 000 000 000</p>
+                <p><strong>Email:</strong> info@iyungasecondary.ac.tz</p>
+
+                <form action="#" method="post">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container2">
+            <p>&copy; 2025 Iyunga Secondary School. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

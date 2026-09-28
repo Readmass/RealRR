@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Records | Iyunga Technical School</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div>
+            <img src="image/logo.jpg" alt="Iyunga Technical School Logo">
+            <h1>Iyunga Technical School</h1>
+            <p>Admission Records</p>
+        </div>
+    </header>
+
+    <main class="records-page">
+
+        <div class="records-header">
+            <h1>Admission Information</h1>
+            <button id="logoutButton">Logout</button>
+        </div>
+
+        <div class="records-search">
+            <input
+                type="text"
+                id="searchStudent"
+                placeholder="Search student by name or Reg No...">
+        </div>
+
+        <section class="table-section">
+            <h2>O-Level Students</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Reg No</th>
+                            <th>Student Name</th>
+                            <th>Date of Birth</th>
+                            <th>Gender</th>
+                            <th>Class</th>
+                            <th>Combination</th>
+                            <th>Previous School</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="oLevelData"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>High-Level Students</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Reg No</th>
+                            <th>Student Name</th>
+                            <th>Date of Birth</th>
+                            <th>Gender</th>
+                            <th>Class</th>
+                            <th>Combination</th>
+                            <th>Previous School</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="highLevelData"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Parent / Guardian Information</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Parent Name</th>
+                            <th>Phone Number</th>
+                            <th>Address</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="guardianData"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <div class="clear-records">
+            <button type="button" id="clearAllBtn">
+                Clear All Records
+            </button>
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
